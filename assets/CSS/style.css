@@ -1,0 +1,50 @@
+*{
+    color:white;
+}
+.corner{
+    background-color: #005194;
+    min-height: 15vw;
+}
+.side{
+    background-color: #005194;
+    min-height: 100vh;
+    position: sticky;
+    top: 0; /* REQUIRED: You must define a threshold */
+    z-index: 100; /* Optional: keeps it above other elements */
+}
+.header{
+    background-color: #005194;
+    min-height: 15vw;
+}
+.content{
+    background-color: #005194;
+    min-height: 100vh;
+}
+.flag{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+body{
+    background-color: #fecc00;
+    margin: 0;
+    padding: 0;
+}
+.h1{
+    color: white;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: #fecc00;
+}
+
+.turismo{
+    /* background-color: #2d85cc; */
+}
