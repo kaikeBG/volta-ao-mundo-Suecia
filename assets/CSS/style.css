@@ -9,8 +9,8 @@
     background-color: #005194;
     min-height: 100vh;
     position: sticky;
-    top: 0; /* REQUIRED: You must define a threshold */
-    z-index: 100; /* Optional: keeps it above other elements */
+    top: 0; 
+    z-index: 100;
 }
 .header{
     background-color: #005194;
@@ -44,7 +44,14 @@ body{
 .nav-link:hover{
     color: #fecc00;
 }
-
+.ubDivisor{
+    min-height: 8.3vw;
+}
 .turismo{
     /* background-color: #2d85cc; */
+}
+
+.accordion-header, .accordion-button, .accordion-body, .accordion-item{
+    background-color: rgba(0, 0, 0, 0.15);
+    color: white;
 }
