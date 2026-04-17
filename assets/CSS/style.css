@@ -72,11 +72,14 @@ body{
     .desc{
         display: none;
     }
-    .carousel-caption{
-        z-index: -2;
+    .carro{
+        display: none;
     }
     #navbar-example3{
         display: none;
+    }
+    .nome-carr{
+        font-size: xx-small;
     }
     .header{
         display: flex;
@@ -85,6 +88,9 @@ body{
 }
 @media (min-width: 1170px){
     .desc-2{
+        display: none;
+    }
+    .img-acc{
         display: none;
     }
 }
