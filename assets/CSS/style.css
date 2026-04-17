@@ -1,6 +1,7 @@
 *{
     color:white;
 }
+
 footer{
     background-color: #013a68;
     min-height: 30px;
@@ -65,4 +66,25 @@ body{
 .navbar, .navbar-brand, .nav, .nav-pills{
     background-color: none;
     color: white
+}
+
+@media (max-width: 1170px){
+    .desc{
+        display: none;
+    }
+    .carousel-caption{
+        z-index: -2;
+    }
+    #navbar-example3{
+        display: none;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+    }
+}
+@media (min-width: 1170px){
+    .desc-2{
+        display: none;
+    }
 }
