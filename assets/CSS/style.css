@@ -1,6 +1,13 @@
 *{
     color:white;
 }
+footer{
+    background-color: #013a68;
+    min-height: 30px;
+}
+footer span{
+    color: #002d52;
+}
 .corner{
     background-color: #005194;
     min-height: 15vw;
