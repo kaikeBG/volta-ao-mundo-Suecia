@@ -47,11 +47,13 @@ body{
 .ubDivisor{
     min-height: 8.3vw;
 }
-.turismo{
-    /* background-color: #2d85cc; */
-}
 
 .accordion-header, .accordion-button, .accordion-body, .accordion-item{
     background-color: rgba(0, 0, 0, 0.15);
     color: white;
+}
+
+.navbar, .navbar-brand, .nav, .nav-pills{
+    background-color: none;
+    color: white
 }
